@@ -37,8 +37,9 @@
   }
 
   /* Journal style link underlines */
-  a:not(.nav-link, .no-underline) {
-    @apply relative no-underline border-b border-black/20 transition-all hover:border-black;
+  a:not(.nav-link) {
+    @apply relative border-b border-black/20 transition-all hover:border-black;
+    text-decoration: none;
   }
 
   /* Quote styling */
